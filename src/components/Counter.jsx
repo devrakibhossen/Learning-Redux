@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Counter = ({ count, onIncrement, onDecrement }) => {
   return (
-    <div className="p-4 h-auto flex flex-col items-center justify-center space-y-5 backdrop-blur-sm bg-white/30  rounded shadow">
+    <div className="p-4 h-auto flex flex-col items-center justify-center space-y-5 backdrop-blur-sm bg-transparent border-gray-900 border  rounded shadow">
       <Count count={count} />
       <div className="flex space-x-3">
         <Button handler={onIncrement}>Increment</Button>
